@@ -153,14 +153,15 @@ hsl(241, 81%, 54%));
   border:none;
   padding:.75rem 2rem;
   cursor:pointer;
-	transition: background 250ms ease-in ;
+	transition: 250ms ease-in ;
 	margin-top:1rem;
 }
 
 .button-primary:hover,
 .button-primary:active
 {
-	background: hsla(224, 30%, 27%,90%);  
+  background:linear-gradient(to bottom, hsl(252, 100%, 67%),
+hsl(241, 81%, 54%));
 
 	
 }
